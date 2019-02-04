@@ -102,7 +102,7 @@ var getProperties = function (name) {
     var data = JSON.parse(body);
     log(data);
     var allAddressesToGeolocate = [];
-    log("\nGELOCATING");
+    //log("\nGELOCATING");
     for(var i = 0; i <= data.rows.length-1; i++){
       allAddressesToGeolocate[i] = data.rows[i].mailing_street;
       //log("testing addresses to geolocate: " + allAddressesToGeolocate[i]);
