@@ -154,7 +154,7 @@ var getMap = function (mailingAddress) {
 
       // parse json data
       var data = JSON.parse(body);
-      console.log("data: %j", data);
+      console.log("\ndata: %j", data);
 
       recursiveAsyncReadLine();
     });
