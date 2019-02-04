@@ -118,11 +118,9 @@ var getProperties = function (name) {
         }
         
       }
-    }
-    
+    } 
     recursiveAsyncReadLine(); // Calling this function again to ask new question
   });
-
 }
 
 
@@ -160,7 +158,6 @@ var getMap = function (mailingAddress) {
 
       recursiveAsyncReadLine();
     });
-
   }
 }
 
